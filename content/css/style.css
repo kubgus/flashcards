@@ -26,6 +26,10 @@ a:hover {
     text-decoration: underline;
 }
 
+.hidden {
+    display: none !important;
+}
+
 #start {
     display: flex;
     flex-direction: column;
@@ -69,10 +73,6 @@ a:hover {
 
 .file-input label:active {
     transform: translateY(2px);
-}
-
-.hidden {
-    display: none;
 }
 
 @keyframes grow {
