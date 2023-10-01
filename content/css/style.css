@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#start {
+    text-align: center;
+}
+
+#start * {
+    margin-bottom: 0.5rem;
+}
+
+.file-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.file-input input[type="file"] {
+    display: none;
+}
+
+.file-input label {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5cceff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.file-input label:hover {
+    background-color: #0db6ff;
+}
+
+.file-input label:active {
+    transform: translateY(2px);
+}
+
+.hidden {
+    display: none;
+}
+
+@keyframes grow {
+from {
+    transform: scale(0);
+}
+to {
+    transform: scale(1);
+}
+}
+
+.flash-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    height: 80vh;
+    border: 5px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 2rem;
+    font-weight: bold;
+    animation: grow 0.25s ease;
+    user-select: none;
+}
+
+.flash-card:hover {
+    background-color: #eee;
+}
+
+.flash-card--flipped {
+    border: 5px solid #0db6ff;
+    transform: rotateY(180deg);
+}
+
+.flash-card--flipped .flash-card__content {
+    transform: rotateY(180deg);
+}
+
+.flash-card--flipped .flash-card__content {
+    transform: rotateY(180deg);
+}
