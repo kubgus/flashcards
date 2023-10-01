@@ -16,7 +16,12 @@ fileInput.addEventListener("change", (e) => {
         document.getElementById("start").classList.add("hidden");
         order = orderInput.checked ? 1 : 0;
         data = reader.result;
-        displayFlashCard();
+        try {
+            displayFlashCard();
+        } catch (e) {
+            alert("Invalid file format!");
+            window.location.reload();
+        }
     };
 });
 
