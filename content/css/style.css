@@ -76,12 +76,13 @@ a:hover {
 }
 
 @keyframes grow {
-from {
-    transform: scale(0);
-}
-to {
-    transform: scale(1);
-}
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
 }
 
 .flash-card {
@@ -99,6 +100,7 @@ to {
     font-size: 2rem;
     font-weight: bold;
     animation: grow 0.25s ease;
+    text-align: center;
     user-select: none;
 }
 

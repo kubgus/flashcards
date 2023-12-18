@@ -8,6 +8,29 @@ let data;
 let flashCardData;
 let flashCardElement;
 
+const urlParams = new URLSearchParams(window.location.search);
+const query = urlParams.get("q");
+if (query) {
+    const request = new XMLHttpRequest();
+    request.open("GET", `content/examples/${query}.json`);
+    request.send();
+    request.onload = () => {
+        if (request.status === 200) {
+            document.getElementById("start").classList.add("hidden");
+            order = orderInput.checked ? 1 : 0;
+            data = request.response;
+            try {
+                displayFlashCard();
+            } catch (e) {
+                alert("Invalid file format!");
+                window.location.reload();
+            }
+        } else {
+            alert("Invalid file!");
+        }
+    };
+}
+
 fileInput.addEventListener("change", (e) => {
     const file = e.target.files[0];
     const reader = new FileReader();

@@ -1,0 +1,18 @@
+[
+    ["Protónové číslo", "Určené PTP, vľavo dole"],
+    ["Nukleónové číslo", "Určené relatívnou atómovou hmotnosťou, vľavo hore, je to počet všetkých častíc v jadre"],
+    ["Elektróny", "Rovnako veľa ako protónov"],
+    ["Nuklid", "Prvok zapísaný s nukleónovým číslom"],
+    ["Izotop", "Nuklidy s tým istým protónovým, no iným nukleónovým číslom"],
+    ["Orbitál - definícia", "Oblasť s najväčšou pravdepodobnosťou výskytu elektrónov v obale"],
+    ["Orbitál - typy", "S (guľa), P (nekonečno), D (kytka), F (sdaadgfdsgvr)"],
+    ["Valenčná vrstva - počet elektrónov", "Podľa čísla hlavnej skupiny"],
+    ["Smer elektrónov", "Súhlasný ↑↑ a nesúhlasný ↑↓ - el. pár"],
+    ["Orbitál - rámčekový diagram", "S-1, P-3, D-5, F-7"],
+    ["Hlavné kvantové číslo - definícia", "Označené n - určuje energiu orbitálu (teda veľkosť), zapisuje sa pred orbitál"],
+    ["Hlavné kvantové číslo - hodnoty", "1-K, 2-L, 3-M, 4-N, 5-O, 6-P, 7-Q"],
+    ["Maximálny počet elektrónov na jednej vrstve", "2n^2"],
+    ["Vedľajšie kvantové číslo", "Označené l = 0,1,2,...,n"],
+    ["Magnetické kvantové číslo", "Označené m = -l,...,+l"],
+    ["Poradie orbitálov", "1s,2s,2p,3s,3p,4s,3d,4p,5s,4d,5p,6s,4f,5d,6p,7s,5f,6d,7p,8s"]
+]
