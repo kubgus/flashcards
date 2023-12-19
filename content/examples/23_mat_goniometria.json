@@ -1,0 +1,13 @@
+[
+    ["Veta o výške", "Ca * Cb = Vc^2"],
+    ["Veta o odvesne a", "C * Ca = A^2"],
+    ["Veta o odvesne b", "C * Cb = B^2"],
+    ["Dôkaz pytagorovej vety na základe Euklidových viet", "C * Ca + C * Cb = A^2 + B^2 = C(Ca+Cb) = C * C = C^2"],
+    ["Sin", "Protiľahlá strana na preponu"],
+    ["Cos", "Priľahlá strana na preponu"],
+    ["Sin^-1", "Z pomeru získa uhol"],
+    ["Cos^-1", "Z pomeru získa uhol"],
+    ["Tg", "Protiľahlá strana na priľahlú"],
+    ["Tg^-1", "Priľahlá strana na protiľahlú"],
+    ["Cotg", "Priľahlá strana na protiľahlú"]
+]
